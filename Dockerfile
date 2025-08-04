@@ -1,6 +1,10 @@
 FROM n8nio/n8n:1.36.2
 
 ENV N8N_PORT=5678
+ENV GENERIC_TIMEZONE=Asia/Seoul
+
+# COPY ./data /home/node/.n8n
+
 EXPOSE 5678
 
-CMD ["n8n", "start"]
+CMD ["n8n"]
