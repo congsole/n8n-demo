@@ -5,4 +5,4 @@ ENV GENERIC_TIMEZONE=Asia/Seoul
  
 EXPOSE 5678
 
-CMD ["start"]
+# CMD ["start"]
