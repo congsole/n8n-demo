@@ -1,4 +1,5 @@
-FROM n8nio/n8n:1.40.1
+# latest image
+FROM n8nio/n8n
 
 ENV N8N_PORT=5678
 ENV GENERIC_TIMEZONE=Asia/Seoul
